@@ -5,6 +5,7 @@ This some notes , I wish you have an enjoyable reading. :)
 
 | Topics      | Pages       |
 | ----------- | ----------- |
-| [read01]      | Title       |
-| [read02]      | Text        |
-| [read03]     |              |
+| **Markdown**  |   [read01](https://yazeedalsahmi.github.io/reading-notes/read01)  |
+|  **Git**      |   [read02](https://yazeedalsahmi.github.io/reading-notes/read02)  |
+|   **HTML**    |   [read03](https://yazeedalsahmi.github.io/reading-notes/read03)  |
+|**Growth Mindset**| [GrowthMindset](https://yazeedalsahmi.github.io/reading-notes/GrowthMindset)|
