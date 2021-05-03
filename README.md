@@ -1,5 +1,6 @@
 # Growth Mindset
 My name ***yazeed alshami*** I will talking about Growth Mindset.
+
 **The growth mindset** believes that the individual is able to develop the basic for himself through *effort and perseverance*, which brings him greater productivity and opens up paths for creativity and potentials, as intelligence and talent are not everything and in the growth mindset a good start and the most important principles that the growth mindset seeks to establish in the soul is ***(love of learning)***.
 
 As for the other type of mindset, it is the **fixed mindset** that views intelligence and talent as fixed traits, indicating that success comes from these qualities alone without the need for further development or effort.
