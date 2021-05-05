@@ -9,5 +9,5 @@ This some notes , I wish you have an enjoyable reading. :)
 |  **Git**      |   [read02](https://yazeedalsahmi.github.io/reading-notes/read02)  |
 |   **HTML**    |   [read03](https://yazeedalsahmi.github.io/reading-notes/read03)  |
 |  **CSS**      |   [read04](https://yazeedalsahmi.github.io/reading-notes/read04)  |
-| **read05**   |  [read05](https://yazeedalsahmi.github.io/reading-notes/read04b) |
+| **JavaScript**   |  [read05](https://yazeedalsahmi.github.io/reading-notes/read05) |
 |**Growth Mindset**| [GrowthMindset](https://yazeedalsahmi.github.io/reading-notes/GrowthMindset)|
