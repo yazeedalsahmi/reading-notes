@@ -12,4 +12,5 @@ This some notes , I wish you have an enjoyable reading. :)
 | **JavaScript**   |  [read05](https://yazeedalsahmi.github.io/reading-notes/read05)  |
 | **Loops**        |  [read06](https://yazeedalsahmi.github.io/reading-notes/read06)  |
 | **Function**     |  [read07](https://yazeedalsahmi.github.io/reading-notes/read07)
+|**Text**           | [read08](https://yazeedalsahmi.github.io/reading-notes/read08)
 |**Growth Mindset**| [GrowthMindset](https://yazeedalsahmi.github.io/reading-notes/GrowthMindset)|

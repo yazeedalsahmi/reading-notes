@@ -1,5 +1,5 @@
 # Function in JavaScript :
-**A JavaScript function ** is a *block of code* designed to perform a particular task.it should take some input and return an output where there is some obvious relationship between the input and the output. **To use a function**, you must define it somewhere in the scope from which you wish to call it.
+**A JavaScript function** is a *block of code* designed to perform a particular task.it should take some input and return an output where there is some obvious relationship between the input and the output. To use a function, you must define it somewhere in the scope from which you wish to call it.
 ## Why Use Function :
 1. You can reuse code: Define the code once, and use it many times.
 
@@ -43,3 +43,4 @@ function myFunction(a, b) {
 
 
 
+ 
