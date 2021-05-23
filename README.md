@@ -1,7 +1,7 @@
 # Introduction :
 My Name is **Yazeed Alshami** I'm a *Mechatronics Engineering* 
 This some notes , I wish you have an enjoyable reading. :)
-# Table of Content :
+# Code 102 reading notes :
 
 | Topics      | Links       |
 | ----------- | ----------- |
@@ -12,5 +12,26 @@ This some notes , I wish you have an enjoyable reading. :)
 | **JavaScript**   |  [read05](https://yazeedalsahmi.github.io/reading-notes/read05)  |
 | **Loops**        |  [read06](https://yazeedalsahmi.github.io/reading-notes/read06)  |
 | **Function**     |  [read07](https://yazeedalsahmi.github.io/reading-notes/read07)
-|**Text**           | [read08](https://yazeedalsahmi.github.io/reading-notes/read08)
-|**Growth Mindset**| [GrowthMindset](https://yazeedalsahmi.github.io/reading-notes/GrowthMindset)|
+|**Text editor**           | [read08](https://yazeedalsahmi.github.io/reading-notes/read08)
+|**Growth Mindset**| [GrowthMindset](https://yazeedalsahmi.github.io/reading-notes/GrowthMindset)|]
+
+# Code 201 Reading Notes : 
+
+| Topics      | Links       |
+| ----------- | ----------- |
+|             |             |
+|             |             |
+|             |             |
+|             |             |
+|             |             |
+|             |             |
+|             |             |
+|             |             |
+|             |             |
+|             |             |
+|             |             |
+|             |             |
+|             |             |
+|             |             |
+|             |             |
+|             |             |
