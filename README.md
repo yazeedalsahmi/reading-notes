@@ -20,7 +20,7 @@ This some notes , I wish you have an enjoyable reading. :)
 | Topics      | Links       |
 | ----------- | ----------- |
 | **Introductory HTML and JavaScript**|   [class01](https://yazeedalsahmi.github.io/reading-notes/class01)|
-|             |             |
+| **CSS Introduction**           |   [class02](https://yazeedalsahmi.github.io/reading-notes/class02)          |
 |             |             |
 |             |             |
 |             |             |
