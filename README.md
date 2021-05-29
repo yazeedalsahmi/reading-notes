@@ -23,7 +23,7 @@ This some notes , I wish you have an enjoyable reading. :)
 | **CSS Introduction**           |   [class02](https://yazeedalsahmi.github.io/reading-notes/class02)          |
 | **Lists and Boxes**            |   [class03](https://yazeedalsahmi.github.io/reading-notes/class03)          |
 | **Links and Functions**            |  [class04](https://yazeedalsahmi.github.io/reading-notes/class04)            |
-|             |             |
+| **Images, Color, Text**            | [class05](https://yazeedalsahmi.github.io/reading-notes/class05)              |
 |             |             |
 |             |             |
 |             |             |
