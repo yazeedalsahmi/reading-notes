@@ -1,4 +1,4 @@
-#Objects:
+# Objects:
 Objects group together a set of variables and functions to create a model 
 of a something you would recognize from the real world. In an object, 
 variables and functions take on new names.
@@ -29,15 +29,15 @@ elName.textContent =hotel .name;
 var elRooms = document.getElementByid{'rooms'); 
 elRooms.textContent = hotel .checkAvailability();
 ```
-*This example starts by creating 
+* This example starts by creating 
 an object using literal notation. 
 This object is called hotel which 
 represents a hotel called Quay 
 with 40 rooms (25 of which have 
 been booked).
-#Document Object Model (DOM):
+# Document Object Model (DOM):
 The DOM is neither part of HTML, nor part of JavaScript; it is a separate set of rules. 
 It is implemented by all major browser makers, and covers two primary areas: 
-1. MAKING A MODEL OF THE HTM L PAGE 
-2.ACCESSING AND CHANGING THE HTML PAGE 
+1. MAKING A MODEL OF THE HTM L PAGE .
+2. ACCESSING AND CHANGING THE HTML PAGE. 
 
