@@ -26,7 +26,7 @@ This some notes , I wish you have an enjoyable reading. :)
 | **Images, Color, Text**            | [class05](https://yazeedalsahmi.github.io/reading-notes/class05)              |
 | **Problem Domain, Objects, and the DOM**            |    [class06](https://yazeedalsahmi.github.io/reading-notes/class06)         |
 | **Table in html**             |   [class07](https://yazeedalsahmi.github.io/reading-notes/class07)           |
-|             |             |
+| **CSS Layout**            |   [class08](https://yazeedalsahmi.github.io/reading-notes/class08)          |
 |             |             |
 |             |             |
 |             |             |
