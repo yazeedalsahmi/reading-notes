@@ -29,7 +29,7 @@ This some notes , I wish you have an enjoyable reading. :)
 | **CSS Layout**            |   [class08](https://yazeedalsahmi.github.io/reading-notes/class08)          |
 |  **Forms**           |      [class09](https://yazeedalsahmi.github.io/reading-notes/class09)       |  
 |    **Debugging**         |    [class10](https://yazeedalsahmi.github.io/reading-notes/class10)         |
-|             |             |
+|  **Images**           |  [class11](https://yazeedalsahmi.github.io/reading-notes/class11)           |
 |             |             |
 |             |             |
 |             |             |
