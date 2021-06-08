@@ -31,7 +31,7 @@ This some notes , I wish you have an enjoyable reading. :)
 |    **Debugging**         |    [class10](https://yazeedalsahmi.github.io/reading-notes/class10)         |
 |  **Images**           |  [class11](https://yazeedalsahmi.github.io/reading-notes/class11)           |
 |  **chart**           |    [class12](https://yazeedalsahmi.github.io/reading-notes/class12)         |
-|             |             |
+|   **Local Storage          |    [class13](https://yazeedalsahmi.github.io/reading-notes/class13)         |
 |             |             |
 |             |             |
 |             |             |
