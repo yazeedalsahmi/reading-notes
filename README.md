@@ -33,5 +33,5 @@ This some notes , I wish you have an enjoyable reading. :)
 |  **chart**           |    [class12](https://yazeedalsahmi.github.io/reading-notes/class12)         |
 |   **Local Storage**          |    [class13](https://yazeedalsahmi.github.io/reading-notes/class13)         |
 |   **CSS Transforms**          |   [class14](https://yazeedalsahmi.github.io/reading-notes/class14)           |
-|             |             |
+|    **Build the Perfect Team**         |   [class14b](https://yazeedalsahmi.github.io/reading-notes/class14b)          |
 |             |             |
