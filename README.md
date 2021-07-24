@@ -1,7 +1,7 @@
 # Introduction :
 My Name is **Yazeed Alshami** I'm a *Mechatronics Engineering* 
 This some notes , I wish you have an enjoyable reading. :)
-# Code 102 reading notes :
+# Code 102-Intro to Software Development  :
 
 | Topics      | Links       |
 | ----------- | ----------- |
@@ -15,7 +15,7 @@ This some notes , I wish you have an enjoyable reading. :)
 |**Text editor**           | [read08](https://yazeedalsahmi.github.io/reading-notes/read08)|
 |**Growth Mindset**| [GrowthMindset](https://yazeedalsahmi.github.io/reading-notes/GrowthMindset)|
 
-# Code 201 Reading Notes : 
+# Code 201-Foundations of Software Development  : 
 
 | Topics      | Links       |
 | ----------- | ----------- |
@@ -36,7 +36,7 @@ This some notes , I wish you have an enjoyable reading. :)
 |    **Build the Perfect Team**         |   [class14b](https://yazeedalsahmi.github.io/reading-notes/class14b)          |
 |             |             |
 
-# Code 301 Reading Notes : 
+# Code 301-Intermediate Software Development : 
 
 | Topics      | Links       |
 | ----------- | ----------- |
