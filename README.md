@@ -40,7 +40,7 @@ This some notes , I wish you have an enjoyable reading. :)
 
 | Topics      | Links       |
 | ----------- | ----------- |
-|             |             |
+| **Components**            | [Class01](https://yazeedalsahmi.github.io/reading-notes/Class01)            |
 |             |             |
 |             |             |
 |             |             |
