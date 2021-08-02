@@ -41,13 +41,13 @@ This some notes , I wish you have an enjoyable reading. :)
 | Topics      | Links       |
 | ----------- | ----------- |
 | **Components**            | [Class01](https://yazeedalsahmi.github.io/reading-notes/Class01)            |
-|             |             |
-|             |             |
-|             |             |
-|             |             |
-|             |             |
-|             |             |
-|             |             |
+|   **React lifecycle**          | [Class02](https://yazeedalsahmi.github.io/reading-notes/Class02)            |
+|   **lists and keys**          |  [Class03](https://yazeedalsahmi.github.io/reading-notes/Class03)           |
+|   **Controlled Component**          |  [Class04](https://yazeedalsahmi.github.io/reading-notes/Class04)           |
+|   **component heirarchy**          |  [Class05](https://yazeedalsahmi.github.io/reading-notes/Class05)           |
+|   **node.js**          |  [Class06](https://yazeedalsahmi.github.io/reading-notes/Class06)           |
+|  **Roy Fielding**           |  [Class07](https://yazeedalsahmi.github.io/reading-notes/Class07)           |
+| **APIs**            |   [Class08](https://yazeedalsahmi.github.io/reading-notes/Class08)          |
 |             |             |
 |             |             |
 |             |             |
