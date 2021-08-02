@@ -48,6 +48,6 @@ This some notes , I wish you have an enjoyable reading. :)
 |   **node.js**          |  [Class06](https://yazeedalsahmi.github.io/reading-notes/Class06)           |
 |  **Roy Fielding**           |  [Class07](https://yazeedalsahmi.github.io/reading-notes/Class07)           |
 | **APIs**            |   [Class08](https://yazeedalsahmi.github.io/reading-notes/Class08)          |
-|   **functional programming**          | [Class08](https://yazeedalsahmi.github.io/reading-notes/Class08)            |
+|   **functional programming**          | [Class09](https://yazeedalsahmi.github.io/reading-notes/Class09)            |
 |             |             |
 |             |             |
