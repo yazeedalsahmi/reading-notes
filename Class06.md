@@ -1,25 +1,46 @@
-# How would you break a mock into a component heirarchy?<br>
-**Answer:** 
-`FilterableProductTable `<br> 
-`SearchBar`<br> 
-`ProductTable`<br> 
-`ProductCategoryRow`<br> 
-`ProductRow`<br> 
+# What is node.js?<br>
+Node.js  is a JavaScript runtime built on Chrome’s V8 JavaScript engine.
 
-What is the single responsibility principle and how does it apply to components?<br>
-**Answer:** a component should ideally only do one thing. If it ends up growing, it should be decomposed into <br>smaller subcomponents.
 
-What does it mean to build a ‘static’ version of your application?<br>
-**Answer:** State is reserved only for interactivity, that is, data that changes over time. Since this is a static version of the app, you don’t need it
+In your own words, what is Chrome’s V8 JavaScript Engine?<br>
+V8 is Google’s open source high-performance JavaScript and WebAssembly engine
 
-Once you have a static application, what do you need to add?<br>
-**Answer:** adding interactivity requires a lot of thinking and not a lot of typing.
 
-What are the three questions you can ask to determine if something is state?<br>
-**Answer:**
-Is it passed in from a parent via props? If so, it probably isn’t state.<br>
-Does it remain unchanged over time? If so, it probably isn’t state.<br>
-Can you compute it based on any other state or props in your component? If so, it isn’t state.<br>
+# What does it mean that node is a JavaScript runtime?<br>
+The Node.js run-time environment includes everything you need to execute a program written in JavaScript.
 
-How can you identify where state needs to live?<br>
-**Answer:** decided that our state lives in FilterableProductTable. First, add an instance property this.state = <br>{filterText: '', inStockOnly: false} to FilterableProductTable’s constructor to reflect the initial state <br>of your application. Then, pass filterText and inStockOnly to ProductTable and SearchBar as a prop. <br>Finally, use these props to filter the rows in ProductTable and set the values of the form fields in SearchBar.
+
+# What is npm?<br>
+ it is an online repository for the publishing of open-source Node.js projects;<br>
+ it is a command-line utility for interacting with said repository that aids in package installation, version <br>management, and dependency management
+
+# What version of node are you running on your machine?<br>
+v12.14.1
+
+
+# What version of npm are you running on your machine?<br>
+7.14.0
+
+
+What command would you type to install a library/package called ‘jshint’?<br>
+npm install jshint
+
+
+What is node used for?<br>
+used for non-blocking, event-driven servers, due to its single-threaded nature. It's used for traditional web <br>sites and back-end API services, but was designed with real-time, push-based architectures in mind.
+
+
+
+What are the 6 reasons for pair programming?<br>
+1. Greater efficiency<br>
+2. Engaged collaboration<br>
+3. Learning from fellow students<br>
+4. Social skills<br>
+5. Job interview readiness<br>
+6. Work environment readiness<br>
+
+In your experience, which of these reasons have you found most beneficial?<br>
+Greater efficiency
+
+How does pair programming work?
+The Driver is the programmer who is typing and the only one whose hands are on the keyboard. Handling the <br>“mechanics” of coding, the Driver manages the text editor, switching files, version control, and—of course <br>writing—code. The Navigator uses their words to guide the Driver but does not provide any direct input to <br>the computer. The Navigator thinks about the big picture, what comes next, how an algorithm might be <br>converted in to code, while scanning for typos or bugs.
