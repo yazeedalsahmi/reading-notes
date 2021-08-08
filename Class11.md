@@ -1,58 +1,67 @@
-# spring App Basics <br>
+# What is OAuth
 
-1- build an application that has a static home page and that will also accept HTTP GET requests<br>
-2- It will respond with a web page that displays HTML. The body of the HTML will contain a greeting: “Hello, <br>World!”<br>
-3- You can customize the greeting with an optional name parameter in the query string. The URL might then be <br>http://localhost:8080/greeting?name=User<br>
-4- Used Spring Initializr to initialize a new spring project<br>
-5-In Spring’s approach to building web sites, HTTP requests are handled by a controller @Controller<br>
-6- The @GetMapping annotation ensures that HTTP GET requests for example to /greeting are mapped to the greeting<br>() method.<br>
-7-@RequestParam binds the value of the query string parameter into the parameter of the greeting() method.<br>
-8-This query string parameter is not required. If it is absent in the request, the defaultValue of World is<br> used.<br>
-9-@SpringBootApplication is a convenience annotation that adds all of the following:<br>
-- @Configuration: Tags the class as a source of bean definitions for the application context.<br>
-- @EnableAutoConfiguration: Tells Spring Boot to start adding beans based on classpath settings, other beans,<br> and various property settings.<br>
-- @ComponentScan: Tells Spring to look for other components, configurations, and services in the com/example <br>package, letting it find the controllers.<br>
-10-The main() method uses Spring Boot’s SpringApplication.run() method to launch an application.<br>
+## What is OAuth?
+ OAuth is an open-standard authorization protocol or framework that describes how unrelated servers and services can safely allow authenticated access to their assets without actually sharing the initial, related, single logon credential
 
-## Build an executable JAR<br>
-- Building an executable jar makes it easy to ship, version, and deploy the service as an application<br> throughout the development lifecycle, across different environments, and so forth.<br>
+## Give an example of what using OAuth would look like.
 
-## RUN<br>
-- gradle: ./gradlew bootRun<br>
-- build the JAR file by using ./gradlew build and then run the JAR file by java -jar target/<br>gs-serving-web-content-0.1.0.jar<br>
+ when you go to log onto a website and it offers one or more opportunities to log on using another website’s/service’s logon. You then click on the button linked to the other website, the other website authenticates you.
 
-## Add a Home Page<br>
-- Spring Boot serves static content from resources in the classpath at /static (or /public). The index.html <br>resource is special because, if it exists, it is used as a "`welcome page<br>
+## How does OAuth work? What are the steps that it takes to authenticate the user?
+
+The first website connects to the second website on behalf of the user, using OAuth, providing the user’s verified identity.
+
+The second site generates a one-time token and a one-time secret unique to the transaction and parties involved.
+
+The first site gives this token and secret to the initiating user’s client software.
+
+The client’s software presents the request token and secret to their authorization provider (which may or may not be the second site).
+
+If not already authenticated to the authorization provider, the client may be asked to authenticate. After authentication, the client is asked to approve the authorization transaction to the second website.
+
+The user approves (or their software silently approves) a particular transaction type at the first website.
+
+The user is given an approved access token (notice it’s no longer a request token).
+
+The user gives the approved access token to the first website.
+
+The first website gives the access token to the second website as proof of authentication on behalf of the user.
+
+The second website lets the first website access their site on behalf of the user.
+
+The user sees a successfully completed transaction occurring.
+
+OAuth is not the first authentication/authorization system to work this way on behalf of the end-user. In fact, many authentication systems, notably Kerberos, work similarly. What is special about OAuth is its ability to work across the web and its wide adoption. It succeeded with adoption rates where previous attempts failed (for various reasons).
+
+## What is OpenID?
+
+OpenID is about authentication, OpenID is for humans logging into machines.
+Authorization and Authentication flows
+What is the difference between authorization and authentication?
+
+### authentication: is the process of verifying who a user is, while authorization is the process of verifying what they have access to.
+What is Authorization Code Flow?
+
+exchanges an Authorization Code for a token.
+What is Authorization Code Flow with Proof Key for Code Exchange (PKCE)?
+
+The PKCE-enhanced Authorization Code Flow introduces a secret created by the calling application that can be verified by the authorization server; this secret is called the Code Verifier. Additionally, the calling app creates a transform value of the Code Verifier called the Code Challenge and sends this value over HTTPS to retrieve an Authorization Code.
+## What is Implicit Flow with Form Post?
+
+Implicit Flow with Form Post flow uses OIDC to implement web sign-in that is very similar to the way SAML and WS-Federation operates. The web app requests and obtains tokens through the front channel, without the need for secrets or extra backend calls. With this method, you don’t need to obtain, maintain, use, and protect a secret in your application.
 
 
-# Spring MVC and Thymeleaf<br>
+## What is Client Credentials Flow?
 
-1-Spring model attributes
-Spring MVC calls the pieces of data that can be accessed during the execution of views model attributes. The<br> equivalent term in Thymeleaf language is context variables.<br>
-2-How to add model attributes to a view in Spring MVC<br>
-- Add attribute to Model via its addAttribute method:<br>
-- Return ModelAndView with model attributes included:<br>
-- Expose common attributes via methods annotated with @ModelAttribute:<br>
-3-You can access model attributes in views with Thymeleaf as follows:<br>
+Client Credentials Flow pass along their Client ID and Client Secret to authenticate themselves and get a token.
 
-`<tr th:each="message : ${messages}">`<br>
-    `<td th:text="${message.id}">1</td>`<br>
-    `<td>`<br>
-        `<a href="#" th:text="${message.title}">Title ...</a>`<br>
-    `</td>`<br>
-    `<td th:text="${message.text}">Text ...</td>`<br>
-`</tr>` <br>
 
-## Request parameters<br>
-* In order to access the q parameter in `https://example.com/query?q=Thymeleaf+Is+Great!` you can use the param <br>prefix `<p th:text="${param.q}">Test</p>`<br>
-* If you access multivalued parameter with ${param.q} you will get a serialized array as a value.<br>
+## What is Device Authorization Flow?
 
-## Session attributes<br>
-* Similarly to the request parameters, session attributes can be accessed by using the session. prefix <br>`<p th:text="${session.mySessionAttribute}" th:unless="${session == null}">[...]</p>`<br>
+Device Authorization Flow pass along their Client ID to initiate the authorization process and get a token.
+the device asks the user to go to a link on their computer or smartphone and authorize the device. This avoids a poor user experience for devices that do not have an easy way to enter text.
 
-## ServletContext attributes<br>
-* In order to access ServletContext attributes in Thymeleaf you can use the #servletContext. prefix<br>
 
-## Spring beans<br>
-* Thymeleaf allows accessing beans registered at the Spring Application Context with the @beanName syntax<br>
-@urlService refers to a Spring Bean registered at your context `<div th:text="${@urlService.getApplicationUrl()}">...</div>`<br>
+## What is Resource Owner Password Flow?
+
+requests that users provide credentials (username and password), typically using an interactive form. Because credentials are sent to the backend and can be stored for future use before being exchanged for an Access Token, it is imperative that the application is absolutely trusted with this information.
