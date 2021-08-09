@@ -50,4 +50,4 @@ This some notes , I wish you have an enjoyable reading. :)
 | **APIs**            |   [Class08](https://yazeedalsahmi.github.io/reading-notes/Class08)          |
 |   **functional programming**          | [Class09](https://yazeedalsahmi.github.io/reading-notes/Class09)            |
 |   **OAuth**          |  [Class11](https://yazeedalsahmi.github.io/reading-notes/Class11)          |
-|             |             |
+|    **nosql vs sql**        | [Class12](https://yazeedalsahmi.github.io/reading-notes/Class12)            |
