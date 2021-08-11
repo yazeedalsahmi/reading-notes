@@ -52,3 +52,4 @@ This some notes , I wish you have an enjoyable reading. :)
 | **In memory storage** | [Class10](https://yazeedalsahmi.github.io/reading-notes/Class10) |
 |   **OAuth**          |  [Class11](https://yazeedalsahmi.github.io/reading-notes/Class11)          |
 |    **nosql vs sql**        | [Class12](https://yazeedalsahmi.github.io/reading-notes/Class12)            |
+| **CRUD**                |   [Class13](https://yazeedalsahmi.github.io/reading-notes/Class13)
