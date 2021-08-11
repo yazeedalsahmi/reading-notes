@@ -49,5 +49,6 @@ This some notes , I wish you have an enjoyable reading. :)
 |  **Roy Fielding**           |  [Class07](https://yazeedalsahmi.github.io/reading-notes/Class07)           |
 | **APIs**            |   [Class08](https://yazeedalsahmi.github.io/reading-notes/Class08)          |
 |   **functional programming**          | [Class09](https://yazeedalsahmi.github.io/reading-notes/Class09)            |
+| **In memory storage** | [Class10](https://yazeedalsahmi.github.io/reading-notes/Class10) |
 |   **OAuth**          |  [Class11](https://yazeedalsahmi.github.io/reading-notes/Class11)          |
 |    **nosql vs sql**        | [Class12](https://yazeedalsahmi.github.io/reading-notes/Class12)            |
